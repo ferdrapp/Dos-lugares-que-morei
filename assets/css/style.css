@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'BlackSignature';
+    src: url('../fonts/BlackSignature.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.display-4 {
+    font-family: 'BlackSignature';
+}
+
+.jumbotron {
+    background-image: url('../img/capa16x9.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.sombra {
+    box-shadow: 10px -10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-primary:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
